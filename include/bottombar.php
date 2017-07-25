@@ -3,7 +3,7 @@
   if ($_SESSION['is_login'] == false)  {
  ?>
 
-<form name="submitcontact" method="post" action="submit.php">
+<form name="submitcontact" method="POST" action="submit.php">
   <div>
     <h4>필수 항목</h4>
     <div class="w3-container" style="width:100%">
