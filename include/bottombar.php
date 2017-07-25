@@ -51,7 +51,7 @@
 </div>
 
 <div id="modifyAdminEmail" class="w3-modal">
-  <?php include("modifyTopArea"); ?>
+  <?php include("include/modifyMailAddress.php"); ?>
 </div>
 
  <?php } ?>

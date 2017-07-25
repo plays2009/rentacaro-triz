@@ -14,7 +14,7 @@
 
       if ($getProductData['is_hot']) {// hot 지정된 상품일 경우 border 처리
     ?>
-      <div style="width: 950px; height: auto; margin-top: 10px; margin-bottom: 8px; border: 5px solid #FF5E00">   <!-- hot 상품일 경우 -->
+      <div style="width: 100%; height: auto; margin-top: 10px; margin-bottom: 8px; border: 5px solid #2b8cd9">   <!-- hot 상품일 경우 -->
         <img src="img/hoticon.png" style="width: 100px; margin: 8px; height: 100px; z-index: 1; position: absolute"></img>
         <?php } else { ?>
       <div style="width: 960px; height: auto; margin-top: 10px; margin-bottom: 8px"> <!-- hot 상품이 아닐 경우 -->
@@ -31,7 +31,7 @@
                <td><?=$getProductData['product_price']?>원</td>
              </tr>
              <tr>
-               <td class="w3-black" colspan="2"><center><b>월 렌탈료</b><center></td>
+               <td style="background-color: #3a4547; color: #ffffff" colspan="2"><center><b>월 렌탈료</b><center></td>
              </tr>
              <tr>
                <td><b>초기비용 0원</b></td>

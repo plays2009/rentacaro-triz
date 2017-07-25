@@ -25,7 +25,7 @@
   <body class="w3-content">
 
     <!-- Main Division -->
-    <div class="w3-content" style="width: 960px; min-height: 1280px">
+    <div class="w3-content" style="width: 960px; min-height: 1280px; border: 2px solid #2b8cd9">
 
       <!-- 상단 회사소개 및 광고 영역 -->
       <div class="" style="width: 960px">
