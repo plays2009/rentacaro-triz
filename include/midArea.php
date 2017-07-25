@@ -24,7 +24,7 @@
             <img src="img/<?=$getProductData['image']?>" style="width:360px; display: inline-block; height: 240px; margin: 16px"></img>
           </div>
           <div class="w3-container w3-cell w3-padding-16">
-            <h4 style="margin: 0px"><?=$getProductData['name']?></h4>
+            <h3 style="margin: 0px"><?=$getProductData['name']?></h3>
             <table class="w3-table w3-striped w3-bordered" style="width: 500px">
              <tr>
                <td><b>차량 가격</b></td>

@@ -43,7 +43,7 @@
 </div>
 
 <div id="modifyMidArea" class="w3-modal">
-  <?php include("modifyMidArea"); ?>
+  <?php include("include/modifyMidArea.php"); ?>
 </div>
 
 <div id="modifyBotArea" class="w3-modal">

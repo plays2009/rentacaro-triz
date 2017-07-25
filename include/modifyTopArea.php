@@ -41,15 +41,6 @@
 
 
   <footer class="w3-container">
-    <h5>이미지를 수정하거나 삭제하려면 해당 이미지를 클릭하시고, 추가하려면 <a onclick="window.open('addTopImage.php', '_blank', 'width=600 height=200 left=500 top=400')" style="color: blue"><i>여기</i></a>를 눌러주세요</h5>
+    <h5>이미지를 수정하거나 삭제하려면 해당 이미지를 클릭하시고, 추가하려면 <a onclick="window.open('addTopImage.php', '_blank', 'width=600 height=200 left=500 top=400')" style="color: blue; cursor: pointer"><i>여기</i></a>를 눌러주세요</h5>
   </footer>
 </div>
-
-<script>
-  function deleteImage(event) {
-    <?php
-      $value = event;
-
-     ?>
-  }
-</script>
