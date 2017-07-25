@@ -47,7 +47,7 @@
 </div>
 
 <div id="modifyBotArea" class="w3-modal">
-  <?php include("modifyBotArea"); ?>
+  <?php include("include/modifyBotArea.php"); ?>
 </div>
 
 <div id="modifyAdminEmail" class="w3-modal">
